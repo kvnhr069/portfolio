@@ -1,0 +1,123 @@
+*
+ margin: 0
+ padding: 0
+ font-family: 'Fira Sans', sans-serif;
+
+/*----- Body Content -----*/
+
+body
+    margin: 0
+    padding: 0
+    width: 100%
+    height: auto
+
+header
+    width: 100%
+    height: 100vh
+    background-image: url(https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e74ff67134cd7317dce3cd800115ad59&auto=format&fit=crop&w=1351&q=80)
+    background-size: cover
+    background-position: center
+    background-attachment: fixed
+
+
+/*----- Container -----*/
+
+.wrapper
+    width: 80%
+    height: auto
+
+.section
+    width: 100%
+    height: 100vh
+
+.container 
+    width: 80%
+    height: 80%
+    display: flex
+    flex-direction: column
+    margin: auto
+    margin-top: 4em
+
+
+/*----- Banner -----*/
+
+.banner 
+    width: 70%
+    height: 80vh
+    margin: auto
+    padding: 1em
+    display: flex
+    justify-content: center
+    flex-direction: column
+
+    .profile-picture
+        width: 100%
+        height: auto
+        margin-bottom: 2em
+        display: flex
+        justify-content: center
+
+        img
+            width: auto
+            height: 30vh
+            border-radius: 50%
+            border: 2px solid rgba(15, 15, 15, 0.1)
+
+    .title
+        width: 47%
+        height: auto
+        margin-bottom: 0.5em
+        padding-bottom: 0.2em
+        align-self: center
+        border-bottom: 2px solid white
+
+        h1
+            color: white
+            text-align: center
+            text-transform: uppercase
+            letter-spacing: 0.1em
+
+    .subtitle
+        width: 100%
+        height: auto
+
+        h2
+            color: white
+            text-align: center
+            text-transform: uppercase
+            letter-spacing: 0.2em
+            font-size: 1em
+
+.next-section
+    width: 100%
+    height: auto
+    margin: 0
+    padding: 0
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+
+    h2
+        color: white
+        text-transform: uppercase
+        letter-spacing: 0.3em
+        font-size: 1em
+
+    img
+        width: auto
+        height: 1em
+        margin-top: 1em
+        padding: 0.5em
+        background: rgba(255, 255, 255, 0.5)
+        border-radius: 100%
+        fill: white
+        transform: rotateZ(180deg)
+        transition: ease-in-out 350ms
+
+    img:hover
+        transform: rotateZ(360deg)
+        transition: ease-in-out 350ms
+        cursor: pointer
+
+
